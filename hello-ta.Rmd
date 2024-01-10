@@ -5,13 +5,20 @@ output: github_document
 Hello,TA!
 
 ```{r}
+options(repos = list(CRAN = "https://cloud.r-project.org"))
+
+```
+
+```{r}
 install.packages('tidyverse')
 install.packages("igraph")
 install.packages("tinytex")
 ```
+
 ```{r}
 library(tidyverse)
 library(igraph)
+
 ```
 
 
